@@ -1,0 +1,23 @@
+body {
+    font-family: 'Courier New', Courier, monospace;    }
+
+  .card{
+    box-shadow: 0px 0px 5px 1px black;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 2px;
+    width: min-content;
+  }
+
+  #misiones{
+  width: min(100%, 1000px);
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+
+  #jumbo{
+    height: 50px;
+    text-align: center;
+  }
